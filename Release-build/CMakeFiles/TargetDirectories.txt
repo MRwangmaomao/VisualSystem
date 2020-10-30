@@ -1,2 +1,0 @@
-/home/wpr/code/VisualSystem/Release-build/CMakeFiles/rebuild_cache.dir
-/home/wpr/code/VisualSystem/Release-build/CMakeFiles/edit_cache.dir
