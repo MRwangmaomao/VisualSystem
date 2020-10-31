@@ -12,6 +12,7 @@ easylogger/elog_file.c
 easylogger/elog_port.c
 easylogger/elog_utils.c
 easylogger/elog.c
+LaneLineDetection/LaneLineDet.cpp
 )
 target_link_libraries(visualsys pthread ${OpenCV_LIBS})
 

@@ -26,7 +26,7 @@
  * Created on: 2015-04-28
  */
 
-#include <elog.h>
+#include <easylogger/elog.h>
 #include <string.h>
 
 /**

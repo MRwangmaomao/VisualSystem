@@ -35,8 +35,8 @@
 
 #include <unistd.h>
 
-#include <elog_file.h>
-#include <elog_file_cfg.h>
+#include <easylogger/elog_file.h>
+#include <easylogger/elog_file_cfg.h>
 
 #define ELOG_FILE_SEM_KEY   ((key_t)0x19910612)
 #ifdef _SEM_SEMUN_UNDEFINED
