@@ -1,6 +1,7 @@
 #!/bin/sh
 
-if [ ! $1=='debug' ]; then
+if [ $1 = 'debug' ]
+then
     BuildTY="Debug"
 else
     BuildTY="Release"
@@ -11,8 +12,11 @@ sudo rm -r $Build
 mkdir $Build
 cd ${Build}
 
-if [ $1=='debug' ]; then
+if [ $1 = 'debug' ]
+then
     cmake -DCMAKE_BUILD_TYPE=Debug ..
 else
     cmake ..
 fi
+
+make -j4
